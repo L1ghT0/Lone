@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script defer src="index.js"></script>
+
+    <style>
+        #add-template {
+            background-color: hotpink;
+            width: 80px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            height: 40px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+        #add-template:hover{
+            color: white;
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div id="add-template">
+        click to add a template
+    </div>
+    <template id="template">
+        <style>
+            .template{
+                width: 70px;
+                height: 40px;
+                padding: 5px 10px;
+                background-color: lavender;
+                margin-top: 5px;
+            }
+        </style>
+        <div class="template">
+            i'm a template
+        </div>
+        <script>
+            alert('template has been added')
+        </script>
+    </template>
+</body>
+</html>

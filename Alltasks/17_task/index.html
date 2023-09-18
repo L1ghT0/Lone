@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script defer src="index.js"></script>
+    <style>
+        #list{
+            position: absolute;
+            display: none;
+            flex-direction: column;
+            box-shadow: 1px 1px 5px 1px lightgray;
+            border-radius: 5px;
+            padding: 10px;
+            top: 35px;
+            left: 110px;
+        }
+        #list span{
+            padding: 5px 0;
+        }
+        #list span:hover{
+            cursor: pointer;
+            background-color: lightgray;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <label for="address">Введите адрес</label>
+        <input type="text" id="address">
+        <div id="list">
+        </div>
+    </div>
+
+</body>
+</html>

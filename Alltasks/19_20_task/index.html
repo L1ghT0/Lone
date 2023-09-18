@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script defer src="index.js"></script>
+    <style>
+        html{
+            background-color: lightpink;
+        }
+        .hidePhoto{
+            display: none;
+        }
+        .photoWrapper{
+            display: flex !important;
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 5px;
+        }
+        .smallPhoto{
+            zoom: 0.3;
+        }
+        .post{
+            padding: 24px 44px;
+            font-size: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+            background-color: lavenderblush;
+            width: fit-content;
+            margin: 0 auto;
+            border-radius: 20px;
+            max-width: 600px;
+            min-width: 600px;
+            text-align: start;
+        }
+        .text{
+
+            margin: 0;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 4; /* number of lines to show */
+            line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
+        .list{
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="localstorage_info"></div>
+    <div class="list">
+
+    </div>
+
+</body>
+</html>
